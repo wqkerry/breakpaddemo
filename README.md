@@ -41,7 +41,8 @@
 #### 5.初始化breakpad  
  `BreakpadInit.initBreakpad(“dump文件存放路径”);`  
 #### 6.分析dmp文件  
- 利用minidump-stackwalk来解析dump文件，此处以windows环境下为例，命令是minidump-stackwalk.exe  xxx.dmp   >  log.txt  
+ 利用minidump-stackwalk来解析dump文件，此处以windows环境下为例，命令是  
+ `minidump-stackwalk.exe  xxx.dmp   >  log.txt`  
  在log文件中有异常相关信息
 #### 7.利用ndk的工具找出报错代码  
 
