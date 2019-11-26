@@ -3,15 +3,16 @@
     implementation project(":breakpad-build")  
 #### 2.在android{}中配置cmake文件   
   //重要步骤  
-  '''  
-    externalNativeBuild {  
-        cmake {  
-            path "CMakeLists.txt"  
-        }  
-    }  
-  '''  
+  ```
+  externalNativeBuild {  
+        cmake {   
+            path "CMakeLists.txt"    
+        }    
+    }     
+   ```
 #### 3.配置CMakeLists文件  
- 'cmake_minimum_required(VERSION 3.4.1)'  
+ ```
+ cmake_minimum_required(VERSION 3.4.1)  
  add_library( # 自定义lib的名字.可以自己命名  
         local-native-lib  
         # Sets the library as a shared library.  
@@ -30,9 +31,12 @@
         #Links the target library to the log library  
         #included in the NDK.  
         ${log-lib})  
+  ```
 #### 4.一般在application中初始化加载breakpad类库，dem中是在activity中**  
-   static {  
+ ```
+ static {  
         System.loadLibrary("local-native-lib");  
     }  
+  ```
 #### 5.初始化breakpad**  
- BreakpadInit.initBreakpad(“dump文件存放路径”);  
+ `BreakpadInit.initBreakpad(“dump文件存放路径”);`  
