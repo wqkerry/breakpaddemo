@@ -15,7 +15,7 @@ import com.sample.breakpad.BreakpadInit;
 import java.io.File;
 
 /**
- * @author wangqiang
+ * @author swangq
  * @date 2019/11/24
  * @describe TODO
  */
