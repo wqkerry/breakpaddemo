@@ -32,11 +32,18 @@
         #included in the NDK.  
         ${log-lib})  
   ```
-#### 4.一般在application中初始化加载breakpad类库，dem中是在activity中**  
+#### 4.一般在application中初始化加载breakpad类库，demo中是在activity中  
  ```
  static {  
         System.loadLibrary("local-native-lib");  
     }  
   ```
-#### 5.初始化breakpad**  
+#### 5.初始化breakpad  
  `BreakpadInit.initBreakpad(“dump文件存放路径”);`  
+#### 6.分析dmp文件  
+ 利用minidump-stackwalk来解析dump文件，此处以windows环境下为例，命令是minidump-stackwalk.exe  xxx.dmp   >  log.txt  
+ 在log文件中有异常相关信息
+#### 7.利用ndk的工具找出报错代码  
+
+ 
+ 
