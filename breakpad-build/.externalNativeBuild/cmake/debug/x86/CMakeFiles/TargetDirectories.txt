@@ -1,0 +1,6 @@
+D:/androidhigher/one/breakdemo/breakpad-build/.externalNativeBuild/cmake/debug/x86/CMakeFiles/breakpad-core.dir
+D:/androidhigher/one/breakdemo/breakpad-build/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+D:/androidhigher/one/breakdemo/breakpad-build/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+D:/androidhigher/one/breakdemo/breakpad-build/.externalNativeBuild/cmake/debug/x86/external/libbreakpad/CMakeFiles/rebuild_cache.dir
+D:/androidhigher/one/breakdemo/breakpad-build/.externalNativeBuild/cmake/debug/x86/external/libbreakpad/CMakeFiles/breakpad.dir
+D:/androidhigher/one/breakdemo/breakpad-build/.externalNativeBuild/cmake/debug/x86/external/libbreakpad/CMakeFiles/edit_cache.dir

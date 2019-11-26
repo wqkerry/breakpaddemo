@@ -1,0 +1,3 @@
+D:/androidhigher/one/breakdemo/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/local-native-lib.dir
+D:/androidhigher/one/breakdemo/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
+D:/androidhigher/one/breakdemo/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
