@@ -18,7 +18,7 @@
         # Sets the library as a shared library.  
         SHARED  
         #Provides a relative path to your source file(s).  
-        #可能出问题的文件，有个疑问，可以是个目录么？？，当用breakpad捕获异常的时候，这里怎么填写呢？  
+        #可能出问题的文件，不可以是个目录，那么当在项目中用breakpad捕获异常的时候，这里怎么填写呢？？？  
         src/main/cpp/local-crash.cpp)  
  find_library( # Sets the name of the path variable.  
         log-lib  
