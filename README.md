@@ -58,6 +58,7 @@ Thread 0 (crashed)
     Found by: given as instruction pointer in context  
    ```
 #### 7.利用ndk的工具找出报错代码  
-
+ 使用ndk下的aarch64-linux-android-addr2line工具进行crash定位，命令如下：  
+ `aarch64-linux-android-addr2line.exe -f -C -e xxx.so  0x7be//上述中的错误位置`
  
  
